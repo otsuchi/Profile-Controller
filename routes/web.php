@@ -19,4 +19,4 @@ Route::group(['prefix' => 'admin'], function(){
 'Admin\NewsController@add');
 });
 Route::get('XXX','AAAController@bbb');
-Route::get('admin/profile/create','ProfileController\edit');
+Route::get('admin/profile/create','ProfileController@edit');
